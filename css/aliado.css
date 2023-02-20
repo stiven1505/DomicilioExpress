@@ -1,0 +1,173 @@
+/* ALIADO*/
+
+
+
+#seccionAliado h1 {
+	font-size: 400%;
+	font-family: titulos;
+}
+
+table#texto{
+	height: auto;
+	
+}
+
+
+
+#textoAliado {
+	position: absolute;
+	height: auto;
+	width: 80%;
+	margin-top: 6%;
+	margin-left: 7%;
+	font-family: texto;
+	font-size: 1.5rem;
+
+
+}
+
+#imagenAliado {
+	position: absolute;
+	height: 50%;
+	width: 60rem;
+	margin-left: 70rem;
+	margin-top:2rem;
+	background: #000000;
+	border-radius: 20px;
+}
+
+#barraAmarilla2 {
+	margin-top: 12.5rem;
+	position: absolute;
+	background-color: #FFFF00;
+	width: 100%;
+	height: 40rem;
+	border-start-start-radius: 100px;
+}
+#xAliado{
+	margin-top: 4rem;
+	height: 30rem;
+	width: 135rem;
+	
+}
+#seccionAliado{
+	
+	margin-bottom: -11rem;
+}
+
+
+#textoAliado ul {
+	font-family: texto;
+	margin-top:2rem;
+}
+
+#textoAliado li {
+
+	margin-top: 1%
+}
+
+
+/*RESPONSIVE */
+
+@media screen and (max-width:2150px) {
+ #imagenAliado{
+	width:50rem;
+	margin-left: 65rem;
+	}
+	#barraAmarilla2{
+	
+		margin-top: 11.5rem;
+	 }
+}
+@media screen and (max-width:1900px) {
+	#imagenAliado{
+	   width:38rem;
+	   margin-left: 60.5rem;
+	   }
+	   #barraAmarilla2{
+	
+		   margin-top: 10.5rem;
+		}
+   }
+
+@media screen and (max-width:1557px) {
+
+	#imagenAliado {
+		display: none;
+	}
+	#seccionAliado{
+		margin-top: -10rem;
+	}
+
+	#textoAliado ul {
+		
+		margin-left: 2.5rem;
+		
+	}
+
+	#textoAliado {
+		height: auto;
+	}
+	#barraAmarilla2{
+		
+		margin-top:-1rem;
+	 }
+
+}
+@media screen and (max-width:983px) {
+	#barraAmarilla2 {
+		height: 600px;
+		margin-top: -4.5rem;
+		
+	}
+	#textoAliado h1{
+		font-size: 3rem;
+	}
+
+
+}
+
+
+
+@media screen and (max-width:760px) {
+
+	
+	#barraAmarilla2 {
+		margin-top: -5.5rem;
+	
+	}
+
+	
+
+	#seccionAliado #prueba h4 a {
+
+	
+		margin-left: 80%;
+		margin-top: -5%;
+	}
+	
+
+}
+
+@media screen and (max-width:680px) {
+	#seccionAliado {
+		margin-top: 100%;
+		;
+	}
+	#seccionAliado #prueba h4 a {
+
+		
+		margin-left: 76%;
+		margin-top: -8%;
+	}
+
+	#barraAmarilla2 {
+		margin-top: 35.5rem;
+	}
+
+	
+
+
+
+
+}

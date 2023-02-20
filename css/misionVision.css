@@ -1,0 +1,147 @@
+/*MISION Y VISION*/
+
+#seccionMisionVision{
+
+	height: auto;
+	background: black;
+}
+
+  #misionVision{
+	display: inline-block;
+	background: #000000;
+	width: 100%;
+	height: 30rem;
+	
+
+}
+#misionVision div{
+	margin-top: 100px;
+}
+
+#misionVision #texto{
+display: inline-block;
+color: #fff;
+font-size: 20px;
+margin-left:50px;
+margin-right: 40px;
+height:auto;
+}
+
+#texto h1{
+	font-family: titulos;
+}
+#texto p{
+	font-family: texto;
+	
+}
+
+
+#imagenesX{
+	height: auto;
+	margin-top: 8%;
+}
+#acom{
+	display: inline-block;
+}
+.contenedorApp{
+	margin-left: 45%;
+}
+
+.contenedorApp li{
+	margin-top: 2rem;
+}
+.imgAppStore{
+	height: 6rem;
+	width: 20rem;
+	border-radius: 8%;
+}
+.imgPlayStore{
+	height: 7rem;
+	width: 21rem;
+	
+}
+.imgRepartidor{
+	margin-left: 6rem;
+	height: 60rem;
+	width: 50rem;
+}
+
+
+
+/*RESPONSIVE */
+@media screen and (max-width:2300px) {
+	.contenedorApp{
+		margin-left: 38%;
+	}
+
+}
+
+@media screen and (max-width:2090px) {
+	.contenedorApp{
+		margin-left: 25%;
+		
+	}
+	
+
+}
+
+
+@media screen and (max-width:1575px) {
+
+
+
+ #texto h1,p{
+		font-size: 23px;	
+	}
+
+
+}
+@media screen and (max-width:1098px) {
+	
+	#texto h1,p{
+		font-size: 20px;
+		
+	}
+	
+}
+
+@media screen and (max-width:980px) {
+	#misionVision{
+		height:50rem;
+	}
+	.si{
+		font-size: 120%;
+	}
+	.imgRepartidor{
+		margin-left: 2rem;
+		height: 40rem;
+		width: 35rem;
+	}
+
+	.contenedorApp{
+		margin-left: 23%;
+	}
+	.imgAppStore{
+		height: 5rem;
+		width: 15rem;
+		border-radius: 8%;
+	}
+	.imgPlayStore{
+		height: 5rem;
+		width: 15.5rem;
+		
+	}
+
+}
+@media screen and (max-width:580px) {
+	
+	#texto h1,p{
+		font-size: 18px;
+		
+	}
+	.contenedorApp{
+		margin-left: 10%;
+	}
+}
+
+

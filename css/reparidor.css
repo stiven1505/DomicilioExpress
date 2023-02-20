@@ -1,0 +1,259 @@
+/* REPARTIDOR*/
+#barraAmarilla {
+	margin-top: 25%;
+	position: absolute;
+	background-color: #FFFF00;
+	width: 100%;
+
+	border-start-start-radius: 100px;
+}
+
+#xRepartidor {
+	margin-top: 7rem;
+	height: auto;
+	width: 140rem;
+
+}
+
+#seccionRepartidor {
+	margin-left: 7%;
+
+
+}
+
+#seccionRepartidor div {
+	margin-top: 11%;
+
+}
+
+
+#seccionRepartidor h1 {
+	font-size: 400%;
+	font-family: titulos;
+
+}
+
+#seccionRepartidor .opcionWpp1 .opcionWpp {
+
+
+	display: block;
+	width: 176px;
+	height: 50px;
+	font-weight: 700;
+	background-color: #FFFD00;
+	color: #000;
+	border-radius: 10px;
+	padding: 10px;
+	font-family: subTitulos;
+}
+
+#seccionRepartidor .opcionWpp1 .opcionWpp:hover {
+	background: #000000;
+	color: #FFFF00;
+}
+
+#seccionRepartidor #textoRepartidor {
+	position: absolute;
+	margin-top:5%;
+	height: auto;
+	width: 80%;
+
+
+}
+
+#seccionRepartidor #imagenRepartidor {
+	position: absolute;
+	height: 50%;
+	width: 60rem;
+	margin-left: 60rem;
+	background: #000000;
+	border-radius: 20px;
+}
+
+
+
+#fila {
+	margin-top: 5%;
+	display: inline-block;
+	margin-left: 2%;
+	height: 100%;
+	width: auto;
+	font-family: texto;
+	font-size: 1.5rem;
+}
+
+#fila li {
+	margin: 1rem;
+}
+
+/*RESPONSIVE */
+@media screen and (max-width:2150px) {
+	#seccionRepartidor #imagenRepartidor {
+		width: 50rem;
+		margin-left: 55rem;
+	}
+
+	#barraAmarilla {
+		margin-top: 26%;
+	}
+}
+
+@media screen and (max-width:1900px) {
+	#seccionRepartidor #imagenRepartidor {
+
+		width: 40rem;
+		margin-left: 50rem;
+	}
+
+	#barraAmarilla {
+
+		margin-top: 27%;
+	}
+}
+
+@media screen and (max-width:1673px) {
+
+
+
+	#barraAmarilla {
+		margin-top: 29rem;
+	}
+
+	#seccionRepartidor #imagenRepartidor {
+		display: none;
+
+	}
+
+}
+
+@media screen and (max-width:1333px) {
+	#fila {
+		font-size: 2rem;
+
+	}
+
+	#seccionRepartidor div {
+		font-size: 10px;
+	}
+
+	#barraAmarilla {
+
+		margin-top: 22%;
+	}
+
+	#seccionRepartidor .opcionWpp1 .opcionWpp {
+		position: absolute;
+		margin-left: 70%;
+		margin-top: -45px;
+		height: auto;
+		width: auto;
+		font-size: 150%;
+	}
+
+
+
+}
+
+@media screen and (max-width:1163px) {
+
+
+
+	#seccionRepartidor {
+		height: 800px;
+
+
+	}
+
+	#textoRepartidor h1 {
+		font-size: 4rem;
+	}
+
+	#seccionRepartidor div {
+		margin-top: 100px;
+		font-size: 6px;
+
+	}
+
+	#seccionRepartidor .opcionWpp1 .opcionWpp {
+		position: absolute;
+		margin-left: 80%;
+		margin-top: -30px;
+
+		font-size: 250%;
+	}
+
+	#barraAmarilla {
+
+		margin-top: 21%;
+	}
+}
+
+
+
+
+@media screen and (max-width:980px) {
+	#seccionRepartidor div h1 {
+		font-size: 2rem;
+
+	}
+
+
+	#seccionRepartidor .opcionWpp1 .opcionWpp {
+		position: absolute;
+		margin-left: 50rem;
+		margin-top: -40px;
+		font-size: 1rem;
+	}
+
+	#barraAmarilla {
+		margin-top: 13.5rem;
+	}
+
+}
+
+@media screen and (max-width:760px) {
+
+	#seccionRepartidor div h1 {
+		font-size: 1.8rem;
+
+	}
+
+	#fila {
+		font-size: 1.5rem;
+		margin-top: 4rem;
+
+	}
+
+	#seccionRepartidor {
+		height: 800px;
+	}
+
+	#textoRepartidor {
+		margin-top: 8rem;
+
+
+	}
+
+
+
+	#textoRepartidor h1 {
+		font-size: 15px;
+	}
+
+	#seccionRepartidor div {
+		margin-top: 30px;
+
+	}
+
+	#seccionRepartidor .opcionWpp1 .opcionWpp {
+		position: absolute;
+		margin-left: 78%;
+		margin-top: -30px;
+
+		font-size: 170%;
+	}
+
+	#barraAmarilla {
+		margin-top: 98px;
+	}
+}

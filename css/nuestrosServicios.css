@@ -1,0 +1,257 @@
+/*NUESTROS SERVICIOS */
+#seccionNuestrosServicios {
+    height: auto;
+    margin-bottom: 10rem;
+}
+
+
+#seccionNuestrosServicios #imagenNuestrosServicio {
+    margin-top: 200px;
+    margin-left: 80px;
+    height: 500px;
+    width: 500px;
+
+
+}
+
+
+div #imgServicios {
+    height: auto;
+    width: 100%;
+
+}
+
+div #textoPrincipal {
+
+    margin-top: 220px;
+    margin-left: 50px;
+    background: #fff;
+    height: 40%;
+    width: 90%;
+
+}
+
+#textoPrincipal h1 {
+    margin-left: 0px;
+}
+
+p {
+    margin-top: 25px;
+    margin-left: 0px;
+    font-size: 30px;
+    font-family: texto;
+
+}
+
+td div .asesor {
+    display: block;
+    width: 300px;
+    font-weight: 900;
+    background-color: #FFFD00;
+    color: #000;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: subTitulos;
+    font-size: 1rem;
+}
+
+/* pase el mouse*/
+td div .asesor:hover {
+    background: #000000;
+    color: #FFFF00;
+}
+
+div #barraRedes {
+
+
+    height: 50px;
+    width: 5%;
+    margin-left: 200px;
+}
+
+#servicios {
+    margin-top: 5%;
+    margin-left: 80px;
+    width: 95%;
+    margin-right: 10px;
+}
+
+
+#pr {
+    display: inline-block;
+    font-family: texto;
+    width: 22%;
+    height: 40%;
+    margin-left: 2%;
+}
+#pr.mensajeria{
+ 
+  margin-bottom: 2.2rem;
+  
+    
+}
+
+
+/*Barra de redes*/
+.barraRedesSociales a {
+    text-decoration: none;
+    height: auto;
+    margin: 10px;
+    font-size: 190%;
+
+}
+
+.barraRedesSociales {
+    margin-top: 200px;
+    margin-right: 20%;
+}
+
+.label1 {
+    color: #4862A3;
+}
+
+.label2 {
+    color: #AB3838;
+}
+
+.label3 {
+    color: #D32681;
+}
+
+.label4 {
+    color: #1DA0F2;
+}
+
+.label5 {
+    color: #4FCE5D;
+}
+
+#textoPrincipal h1 {
+    font-family: titulos;
+    font-size: 60px;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width:1402px) {
+
+    #seccionNuestrosServicios #imagenNuestrosServicio {
+        width: 250px;
+    }
+
+    #textoPrincipal h1 {
+        font-size: 25px;
+    }
+
+    #textoPrincipal p {
+        font-size: 18px;
+    }
+
+    td div .asesor {
+        font-size: 20px;
+    }
+
+    #Servicios {
+        margin-right: 30px;
+    }
+
+    #servicios {
+        font-size: 13px;
+    }
+
+    #seccionNuestrosServicios #imagenNuestrosServicio {
+        margin-top: 250px;
+        height: auto;
+        width: 350px;
+    }
+
+    div #imgServicios {
+        height: 400px;
+        width: 340px;
+
+    }
+
+
+}
+
+@media screen and (max-width:980px) {
+    #seccionNuestrosServicios{
+        height: 100%;
+        margin-bottom: 6%;
+      
+    }
+
+
+
+    #seccionNuestrosServicios #texto {
+        margin-left: -60px;
+        margin-right: 10px;
+
+    }
+
+    #seccionNuestrosServicios #servicios {
+        margin-left: 20px;
+        margin-right: 10px;
+
+    }
+
+    #pr {
+        display: block;
+        width: auto;
+        margin-top: 6%;
+    }
+
+
+    #textoPrincipal h1 {
+        font-size: 20px;
+    }
+
+    #textoPrincipal p {
+        font-size: 15px;
+    }
+
+    td div .asesor {
+        margin-left: -20px;
+        font-size: 140%;
+    }
+
+    #servicios {
+        font-size: 13px;
+    }
+
+    div #barraRedes {
+        display: none;
+    }
+
+
+    #seccionNuestrosServicios #imagenNuestrosServicio {
+        margin-top: 250px;
+        height: auto;
+        width: 150px;
+    }
+
+    div #imgServicios {
+        height: 180px;
+        width: auto;
+
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width:700px) {
+    #seccionNuestrosServicios {
+       height: auto;
+      
+      
+    }
+
+    table #textoPrincipal {
+        margin-left: 10px;
+    }
+
+}
+

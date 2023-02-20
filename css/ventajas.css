@@ -1,0 +1,295 @@
+/*VENTAJAS */
+
+#seccionVentajas1 {
+	height: auto;
+	background-image: url("../img/Ventajas/30.png");
+	background-repeat: no-repeat;
+	background-size: 120%;
+	margin-top: 3%;
+	
+
+}
+
+.encabezadoVentajas {
+	margin-left: 42%;
+	margin-top: 17rem;
+
+}
+
+#tituloVentajas {
+	margin-left: 2%;
+	font-size: 80px;
+	font-family: titulos;
+}
+
+.encabezadoVentajas .opcionWpp {
+	display: block;
+	width: 8.5%;
+	height: auto;
+	font-weight: 900;
+	background-color: #FFFD00;
+	color: #000;
+	border-radius: 10px;
+	padding: 15px;
+	font-family: subTitulos;
+	margin-left: 8%;
+	font-size: 1.2rem;
+}
+
+
+
+#imgVentajas {
+	height: 220px;
+	width: 200px;
+	border-radius: 100%;
+	margin-left: 30%;
+	margin-bottom: 2rem;
+}
+
+#imgVentajaEncabezado {
+	height: 25%;
+	width: 50%;
+	border-radius: 12rem;
+	position: right;
+	margin-left: 25%;
+	margin-top: 5rem;
+
+}
+
+#seccionVentajas1 ul {
+	margin-left: -6%;
+	margin-top: 12rem;
+}
+
+#uno {
+	margin-top: 20rem;
+	display: inline-block;
+	margin-left: 24%;
+	width: 30rem;
+	height: 32rem;
+
+
+}
+
+#dos {
+	display: inline-block;
+	margin-left: 24%;
+	width: 30rem;
+	height: 30rem;
+
+}
+
+#seccionVentajas1 ul li h4 {
+	font-family: texto;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+#tituloPago {
+
+	font-size: 300%;
+	margin-left: 38%;
+	margin-bottom: 3%;
+	font-family: subTitulos;
+}
+
+#imagenPago {
+	display: inline-block;
+	margin-left: 17%;
+
+}
+
+#formasPago {
+	height: 300px;
+	width: 100%;
+	margin-left: 3%;
+
+}
+
+
+
+.pay {
+	height: 120px;
+	width: 170px;
+
+}
+
+@media screen and (max-width:1940px) {
+
+
+
+
+	.encabezadoVentajas .opcionWpp {
+		width: 145px;
+		font-size: 1.4rem;
+	}
+
+	#uno {
+		margin-left: 20rem;
+	}
+
+	#dos {
+		margin-left: 20rem;
+
+	}
+
+}
+
+@media screen and (max-width:1590px) {
+	
+
+	#seccionVentajas1 ul {
+		margin-left: -6%;
+		margin-top: -5rem;
+	}
+	#uno {
+		margin-left: 15rem;
+	}
+
+	#dos {
+		margin-left: 15rem;
+
+	}
+}
+
+@media screen and (max-width:1360px) {
+
+
+	#uno {
+		margin-left: 10rem;
+	}
+
+	#dos {
+		margin-left: 10rem;
+
+
+	}
+
+	.encabezadoVentajas {
+		margin-left: 40%;
+	}
+
+	#tituloPago {
+
+		margin-left: 35%;
+		margin-bottom: 4rem;
+
+	}
+
+	#formasPago {
+		height: 220px;
+		width: 100%;
+		margin-left: 3%;
+	}
+
+	#imagenPago {
+		margin-left: 15%;
+	}
+
+
+	.pay {
+		height: 30%;
+		width: 170px;
+
+	}
+
+}
+
+@media screen and (max-width:1220px) {
+	#uno {
+		display: block;
+		margin-top: 0%;
+		margin-left: 35%;
+	}
+
+	#dos {
+		display: block;
+		margin-left: 35%;
+	}
+
+	#seccionVentajas1 ul {
+		margin-top: 10rem;
+	}
+
+	#seccionVentajas1 {
+		margin-top: -25rem;
+	}
+
+}
+
+
+@media screen and (max-width:910px) {
+
+	#uno {
+		display: block;
+		margin-top: 0%;
+		margin-left: 25%;
+	}
+
+	#dos {
+		display: block;
+		margin-left: 25%;
+	}
+
+	.encabezadoVentajas {
+		margin-left: 15rem;
+
+	}
+
+
+	#tituloPago {
+		font-size: 30px;
+
+	}
+
+	.encabezadoVentajas .opcionWpp {
+		width: 17%;
+		height: auto;
+		font-size: 15px;
+		margin-left: 15%;
+
+	}
+
+	.pay {
+		height: 30%;
+		width: 100px;
+
+	}
+
+	#imagenPago {
+		margin-left: 17%;
+	}
+
+}
+
+@media screen and (max-width: 720px) {
+
+	.encabezadoVentajas .opcionWpp {
+		width: 18%;
+		font-size: 11px;
+		margin-left: 19%;
+	}
+
+	.encabezadoVentajas {
+		margin-left: 30%;
+	}
+
+	#imagenPago {
+		margin-left: 15%;
+	}
+
+	#seccionVentajas1 ul {
+		margin-left: -15%;
+
+	}
+
+	#uno h4 {
+		font-size: 20px;
+	}
+
+
+}

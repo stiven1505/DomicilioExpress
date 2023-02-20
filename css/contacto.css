@@ -1,0 +1,212 @@
+/*CONTACTO */
+
+#seccionContacto .preguntaContacto {
+	background-color: rgba(255, 255, 255, 0.2);
+	height: 20%;
+	width: px;
+	font-size: 60%;
+	font-family: subTitulos;
+}
+
+#seccionContacto {
+	margin-top: 4%;
+	margin-left: 6%;
+	height: 100px;
+	width: 100%;
+
+}
+
+#seccionContacto #pregunta {
+	margin-top: 5%;
+	margin-left: 60%;
+	font-size: 200%;
+	position: absolute;
+}
+
+#pregunta h1 {
+	font-family: titulos;
+}
+
+#imagenPregunta {
+	position: absolute;
+	height: 45%;
+	width: 100%;
+	margin-left: -6%;
+}
+
+#ase {
+	margin-top: 4%;
+	margin-left: 6%;
+	display: inline-block;
+	width: 50%;
+	font-family: subTitulos;
+}
+
+#ase.linkContacto {
+
+	height: 70px;
+	margin-top: -10%;
+	margin-left: 60%;
+
+}
+
+div .contactoInformacion {
+
+
+	width: 41%;
+	font-weight: 900;
+	background-color: #FFFD00;
+	color: #000;
+	border-radius: 10px;
+	padding: 15px;
+	font-family: subTitulos;
+	font-size: 50%;
+	text-decoration: none;
+}
+
+/* pase el mouse*/
+div .contactoInformacion:hover {
+	background: #000000;
+	color: #FFFF00;
+}
+
+#subSeccioncontacto {
+	margin-top: 22%;
+	width: 100%;
+	height: auto;
+	/**/
+	background: #FFFF00;
+	border-radius: 15px;
+	position: absolute;
+	margin-left: -6%;
+	font-family: texto;
+}
+
+#subSeccioncontacto #tituloContacto {
+	margin-left: 7%;
+	margin-top: 3%;
+}
+
+#subSeccioncontacto table {
+	margin-top: 1%;
+	margin-left: 10%;
+	width: 100%;
+
+
+
+}
+
+#plataformas {
+
+	margin-left: 9%;
+	width: 100%;
+	height: 27%;
+
+}
+
+#tituloPlataforma {
+	margin-left: 37%;
+	margin-bottom: 1%;
+
+}
+
+/*REDES contacto*/
+table tr td a {
+	text-decoration: none;
+	font-size: 26px;
+}
+
+.color {
+	color: #000000;
+}
+
+
+
+
+.apple {
+
+	height: 4.5rem;
+	width: 13rem;
+	margin-left: 29%;
+	
+	border-radius: 5px;
+}
+
+.android {
+	margin-left: 10%;
+	height: 30%;
+	width: 8%;
+
+}
+
+@media screen and (max-width:1638px) {
+	#plataformas {
+		margin-top: 50%;
+		width: 100%;
+		height: 10%;
+
+	}
+
+	#tituloPlataforma {
+		margin-left: 37%;
+		font-size: 90%;
+
+	}
+
+
+
+}
+
+@media screen and (max-width:1300px) {
+
+	#plataformas {
+		
+		width: 100%;
+		height: 10%;
+		
+
+	}
+
+	
+
+}
+
+@media screen and (max-width:1600px) {
+
+	#plataformas {
+		margin-top: 10%;
+		width: 100%;
+		height: 10%;
+		margin-left: 10%;
+		
+
+
+	}
+
+	#subSeccioncontacto {
+		margin-top: 30%;
+	}
+
+}
+
+@media screen and (max-width:1100px) {
+
+
+	#plataformas {
+		display: none;
+	}
+
+	#seccionContacto #pregunta {
+		display: none;
+	}
+
+	#subSeccioncontacto {
+		margin-top: 60%;
+	}
+
+	/*REDES*/
+	table tr td a {
+
+		font-size: 14px;
+	}
+}

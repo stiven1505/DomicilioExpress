@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
+}
+
+.seccion {
+	height: 1000px;
+	width: 100%;
+
+
+}
+
+/* etiqueta redireccionamiento a wpp 
+generales*/
+
+.opcionWpp {
+
+	text-decoration: none;
+	border-radius: 5px;
+	background: #FFFF00;
+	color: black;
+	height: 70px;
+	width: 90px;
+	font-size: 38px;
+
+
+}
+
+/* pase el mouse*/
+.opcionWpp:hover {
+	background: #000000;
+	color: #FFFF00;
+}
+
+/* Tipo de letras*/
+@font-face {
+	font-family: titulos;
+	src: url("../tipoLetras/Titulo1.otf");
+}
+
+@font-face {
+	font-family: subTitulos;
+	src: url("../tipoLetras/SubTitulo1.otf");
+}
+
+@font-face {
+	font-family: texto;
+	src: url("../tipoLetras/Texto1.otf");
+}
+
+
+/*---------------------------------------------------------------------*/
